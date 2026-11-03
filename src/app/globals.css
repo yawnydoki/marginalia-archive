@@ -1,0 +1,19 @@
+:root {
+  --font-serif: "Fraunces Variable", "Arial Narrow", serif;
+  --font-sans: "Lucida Console", "Courier New", monospace;
+}
+
+* { box-sizing: border-box; padding: 0; margin: 0; }
+
+html { background: #e6e0d5; scroll-behavior: smooth; }
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button:focus-visible, a:focus-visible { outline: 2px solid #9c4f3d; outline-offset: 4px; }
+::selection { background: #9c4f3d; color: #fffaf0; }
